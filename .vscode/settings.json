@@ -1,0 +1,194 @@
+{
+  "workbench.colorTheme": "D2 Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.tree.renderIndentGuides": "none",
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": true,
+  "workbench.layoutControl.enabled": false,
+  "workbench.tips.enabled": false,
+  "workbench.colorCustomizations": {
+    "editorSuggestWidget.selectedBackground": "#231739",
+    "sideBar.background": "#191521",
+    "list.activeSelectionBackground": "#231739",
+    "list.inactiveSelectionBackground": "#231739",
+    "list.focusBackground": "#231739",
+    "list.hoverBackground": "#231739",
+    "terminalCursor.foreground": "#C45DFF",
+    "statusBar.background": "#15111B",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.noFolderBackground": "#15111B",
+    "statusBar.noFolderForeground": "#ffffff",
+    "statusBar.debuggingBackground": "#15111B",
+    "statusBar.debuggingForeground": "#ffffff"
+  },
+  "editor.minimap.enabled": false,
+  "editor.guides.indentation": false,
+  "editor.renderWhitespace": "none",
+  "editor.lightbulb.enabled": "off",
+  "editor.showFoldingControls": "never",
+  "editor.scrollbar.horizontal": "visible",
+  "editor.scrollbar.vertical": "visible",
+  "editor.overviewRulerBorder": false,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.tabSize": 2,
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4
+  },
+  "editor.detectIndentation": false,
+  "editor.fontFamily": "MesloLGL Nerd Font Mono",
+  "editor.fontSize": 12.5,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.5,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "git.decorations.enabled": false,
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.fontFamily": "MesloLGL Nerd Font Mono",
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "window.titleBarStyle": "custom",
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset"
+  },
+  "apc.font.family": "Dank Mono",
+  "apc.listRow": {
+    "lists": [
+      "explorer-folders-view",
+      "quick-input-list",
+      "results"
+    ],
+    "height": 30
+  },
+  "apc.stylesheet": {
+    ".title-actions": "display: none !important",
+    ".quick-input-widget.show-file-icons, .editor-widget.find-widget": "box-shadow: none !important",
+    ".filematch .monaco-icon-label:before, .custom-list-row.results .monaco-list-row .monaco-icon-label:before": "background-position: 0 bottom !important",
+    ".filematch .monaco-count-badge": "padding: 5px 6px 0 6px !important",
+    ".sidebar .title-label": "padding: 0 !important",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+    ".sidebar": "border: none !important",
+    ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #67D0FF 10%, #C45DFF 100%)",
+    ".quick-input-list-row div": "display: flex !important; align-items: center !important",
+    ".panel .composite.title": "visibility: hidden !important",
+    ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "padding-bottom: 6px !important",
+    ".sidebar .title-label h2": "line-height: 2.8 !important",
+    ".monaco-editor .scroll-decoration": "display: none !important",
+    ".monaco-scrollable-element > .shadow.top": "display: none !important",
+    ".monaco-split-view2 > .monaco-scrollable-element > .split-view-container": "background: #191521 !important"
+  },
+  "animations.Install-Method": "Apc Customize UI++",
+  "apc.imports": [
+    "file:///Users/ale/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.7/dist/updateHandler.js"
+  ],
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "window.zoomLevel": 1,
+  "window.commandCenter": false,
+  "workbench.activityBar.location": "hidden",
+  "editor.formatOnSave": true,
+  "git.enableSmartCommit": true,
+  "editor.accessibilitySupport": "off",
+  "redhat.telemetry.enabled": false,
+  "[yaml]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code"
+  },
+  "hediet.vscode-drawio.resizeImages": null,
+  "hediet.vscode-drawio.theme": "kennedy",
+  "hediet.vscode-drawio.appearance": "light",
+  "hediet.vscode-drawio.codeLinkActivated": true,
+  "go.toolsManagement.autoUpdate": true,
+  "workbench.editor.editorActionsLocation": "titleBar",
+  "gitlens.menus": {
+    "editor": {
+      "blame": false,
+      "clipboard": false,
+      "compare": false,
+      "history": false,
+      "remote": false
+    },
+    "editorGroup": {
+      "blame": true,
+      "compare": true
+    },
+    "editorGutter": {
+      "compare": true,
+      "remote": true,
+      "share": true
+    },
+    "editorTab": {
+      "clipboard": false,
+      "compare": false,
+      "history": false,
+      "remote": false
+    },
+    "explorer": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "ghpr": {
+      "worktree": true
+    },
+    "scm": {
+      "graph": true
+    },
+    "scmRepositoryInline": {
+      "generateCommitMessage": true,
+      "graph": true,
+      "stash": true
+    },
+    "scmRepository": {
+      "authors": true,
+      "generateCommitMessage": true,
+      "patch": true,
+      "graph": false
+    },
+    "scmGroupInline": {
+      "stash": true
+    },
+    "scmGroup": {
+      "compare": true,
+      "openClose": true,
+      "patch": true,
+      "stash": true
+    },
+    "scmItemInline": {
+      "stash": false
+    },
+    "scmItem": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "patch": true,
+      "remote": true,
+      "share": true,
+      "stash": true
+    }
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false,
+    "python": true
+  },
+  "dart.devToolsLocation": {
+    "default": "external",
+    "inspector": "sidebar"
+  },
+  "telemetry.telemetryLevel": "off",
+  "genieai.telemetry.disable": false,
+  "telemetry.feedback.enabled": false,
+  "files.insertFinalNewline": true
+}

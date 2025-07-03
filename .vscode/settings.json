@@ -49,7 +49,6 @@
   "extensions.ignoreRecommendations": true,
   "files.autoSave": "afterDelay",
   "terminal.integrated.fontFamily": "MesloLGL Nerd Font Mono",
-  "terminal.integrated.tabs.enabled": false,
   "terminal.integrated.lineHeight": 1,
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.env.osx": {
@@ -190,5 +189,6 @@
   "telemetry.telemetryLevel": "off",
   "genieai.telemetry.disable": false,
   "telemetry.feedback.enabled": false,
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  "githubPullRequests.pullBranch": "never"
 }

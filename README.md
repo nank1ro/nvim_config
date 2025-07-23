@@ -20,3 +20,4 @@ Then run `chmod +x .git/hooks/pre-commit` to make the script executable.
 
 This script will run before every commit, ensuring that your VSCode settings are always up to date.
 
+> You can also sync VScode settings manually by running `j sync_settings` or just `j` in the terminal.

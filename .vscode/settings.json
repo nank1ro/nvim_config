@@ -190,5 +190,10 @@
   "genieai.telemetry.disable": false,
   "telemetry.feedback.enabled": false,
   "files.insertFinalNewline": true,
-  "githubPullRequests.pullBranch": "never"
+  "githubPullRequests.pullBranch": "never",
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": "on"
+    }
+  }
 }

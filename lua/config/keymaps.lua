@@ -54,6 +54,14 @@ if vim.g.vscode then
     vscode.call('workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup')
     vscode.call('list.select')
   end, { desc = 'Switch to Other Buffer' })
+
+  vim.keymap.set({'n'}, '<S-Tab>', function()
+    vscode.call('workbench.action.previousEditor')
+  end, { desc = 'Switch to Previous Buffer' })
+
+  vim.keymap.set({'n'}, '<Tab>', function()
+    vscode.call('workbench.action.nextEditor')
+  end, { desc = 'Switch to Next Buffer' })
 else
 	-- Remap Ctrl+h/j/k/l to navigate windows like Ctrl+w h/j/k/l
 	vim.keymap.set('n', '<C-h>', '<C-w>h', { noremap = true, silent = true })

@@ -41,6 +41,19 @@ if vim.g.vscode then
 	vim.keymap.set({ "n" }, "<C-l>", function()
 		vscode.action("workbench.action.focusRightGroup")
 	end, { noremap = true, silent = true })
+
+  vim.keymap.set({'n'}, '<leader>bo', function()
+    vscode.call('workbench.action.closeOtherEditors')
+  end, { desc = 'Delete other buffers' })
+
+  vim.keymap.set({'n'}, '<leader>bd', function()
+    vscode.call('workbench.action.closeActiveEditor')
+  end, { desc = 'Delete buffer' })
+
+  vim.keymap.set({'n'}, '<leader>`', function()
+    vscode.call('workbench.action.quickOpenPreviousRecentlyUsedEditorInGroup')
+    vscode.call('list.select')
+  end, { desc = 'Switch to Other Buffer' })
 else
 	-- Remap Ctrl+h/j/k/l to navigate windows like Ctrl+w h/j/k/l
 	vim.keymap.set('n', '<C-h>', '<C-w>h', { noremap = true, silent = true })

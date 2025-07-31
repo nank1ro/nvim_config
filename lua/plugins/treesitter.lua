@@ -11,7 +11,8 @@ return {
         "javascript",
         "typescript",
         "dart",
-        "json"
+        "json",
+        "markdown"
       },
       auto_install = true,
       highlight = {

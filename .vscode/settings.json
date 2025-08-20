@@ -200,5 +200,6 @@
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "lldb.suppressUpdateNotifications": true
+  "lldb.suppressUpdateNotifications": true,
+  "svelte.enable-ts-plugin": true
 }

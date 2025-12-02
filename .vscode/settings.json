@@ -5,7 +5,6 @@
   "workbench.tree.renderIndentGuides": "none",
   "workbench.sideBar.location": "right",
   "workbench.statusBar.visible": true,
-  "workbench.layoutControl.enabled": false,
   "workbench.tips.enabled": false,
   "workbench.colorCustomizations": {
     "editorSuggestWidget.selectedBackground": "#231739",
@@ -180,12 +179,14 @@
     "plaintext": true,
     "markdown": true,
     "scminput": false,
-    "python": true
+    "python": true,
+    "dart": true
   },
   "dart.devToolsLocation": {
     "default": "external",
     "inspector": "sidebar"
   },
+  "dart.devToolsBrowser": "default",
   "telemetry.telemetryLevel": "off",
   "genieai.telemetry.disable": false,
   "telemetry.feedback.enabled": false,
@@ -201,5 +202,35 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "lldb.suppressUpdateNotifications": true,
-  "svelte.enable-ts-plugin": true
+  "svelte.enable-ts-plugin": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "yaml.schemas": {
+    "file:///Users/ale/.vscode/extensions/continue.continue-1.2.11-darwin-arm64/config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ]
+  },
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": true,
+  "git.blame.editorDecoration.enabled": false,
+  "git.openRepositoryInParentFolders": "never",
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "sherlock.userId": "b520ca73-8fc3-40bf-8614-6b19316bd4a2",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "dart.flutterSdkPath": "~/fvm/versions/stable",
+  "claudeCode.preferredLocation": "panel",
 }

@@ -69,13 +69,3 @@ else
 	vim.keymap.set('n', '<C-k>', '<C-w>k', { noremap = true, silent = true })
 	vim.keymap.set('n', '<C-l>', '<C-w>l', { noremap = true, silent = true })
 end
-
-local markdown_helpers = require('config.markdown_styling')
-
--- Set keymaps for bolding
-vim.keymap.set({'n', 'v',}, '<leader>b', markdown_helpers.bold_word_or_selection, { desc = 'Bold word/selection (Markdown)' })
-vim.keymap.set({'i'}, '<C-b>', markdown_helpers.bold_word_or_selection, { desc = 'Bold word/selection (Markdown)' })
-
--- Set keymaps for italicizing
-vim.keymap.set({'n', 'v'}, '<leader>i', markdown_helpers.italic_word_or_selection, { desc = 'Italic word/selection (Markdown)' })
-vim.keymap.set({'i'}, '<C-i>', markdown_helpers.italic_word_or_selection, { desc = 'Italic word/selection (Markdown)' })

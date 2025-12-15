@@ -1,10 +1,8 @@
 {
-  "workbench.colorTheme": "D2 Dark",
   "workbench.iconTheme": "material-icon-theme",
   "material-icon-theme.hidesExplorerArrows": true,
   "workbench.tree.renderIndentGuides": "none",
   "workbench.sideBar.location": "right",
-  "workbench.statusBar.visible": true,
   "workbench.tips.enabled": false,
   "workbench.colorCustomizations": {
     "editorSuggestWidget.selectedBackground": "#231739",
@@ -91,7 +89,6 @@
     "asvetliakov.vscode-neovim": 1
   },
   "window.zoomLevel": 1,
-  "window.commandCenter": false,
   "workbench.activityBar.location": "hidden",
   "editor.formatOnSave": true,
   "git.enableSmartCommit": true,
@@ -233,4 +230,11 @@
   },
   "dart.flutterSdkPath": "~/fvm/versions/stable",
   "claudeCode.preferredLocation": "panel",
+  "workbench.preferredDarkColorTheme": "Dracula Refined",
+  "workbench.colorTheme": "Default Dark+",
+  "debug.toolBarLocation": "docked",
+  "workbench.layoutControl.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "window.commandCenter": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
 }
